@@ -1,0 +1,145 @@
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: inter2;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    font-family: inter;
+}
+body {
+    background-color: #FAF9F6;
+    font-family: inter;
+    margin-left:5%;
+
+}
+.header {
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    padding-right:5%;
+}
+.content {
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.button-row {
+    float: right;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.button-row button {
+    margin-right: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 70%;
+    text-align: center;
+    width: 70px;
+    color: black;
+}
+.button-row button:hover {
+    background-color: #ff1100;
+    transition: background-color 300ms linear;
+}
+.container {
+    display: inline-block;
+    position: relative;
+}
+.row {
+    display:block;
+}
+.column {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 15px;
+}
+.news-page {
+    padding: 15px;
+    width: 300px;
+    background-color: black;
+}
+.news-page h1 {
+    color: Orange;
+    padding-bottom: 15px;
+    
+}
+.news-letter {
+    color:white;
+    padding-bottom: 15px;
+}
+.news-letter p {
+    font-size: 18px;
+    color:rgba(211, 211, 211, 0.677);
+    padding-bottom: 15px;
+}
+.news-letter hr {
+    height: 0.3px;
+    border: 0 none;
+    background-color: white;
+}
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: inter2;
+    margin-top:-5px;
+}
+.box {
+    margin-left:75px;
+}
+.readmore-button {
+    background-color: #ff1100;
+    outline: none;
+    border: none;
+    color:white;
+    height: 40px;
+    width: 170px;
+    font-weight: bold;
+}
+.text {
+    width:450px;
+    line-height: 35px;
+    font-size: 25px;
+    font-family: inter;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+.adbox {
+    display: inline-flex;
+    margin-right: 10px;
+    font-family: inter;
+
+}
+.adbox-child {
+    margin-left: 15px;
+    line-height: 18px;
+    width: 200px;
+}
+.adbox p {
+    font-size: 18px;
+}
+
+.adbox h2 {
+    line-height: 25px;
+}
+
+.readmore-button:hover {
+    background-color: #ff110074;
+}
+.main {
+    display:flex;
+    justify-content: space-evenly;
+}
